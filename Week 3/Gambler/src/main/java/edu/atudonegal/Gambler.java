@@ -38,6 +38,17 @@ public class Gambler {
       // Game logic
       while (pot > 0 && pot < goal) {
         // TO DO - Implement game logic
+        int diceThrow = simulateThrow();
+
+        if(diceThrow < 6)
+        {
+          pot +=1;
+        }
+        
+        if(diceThrow >= 6)
+        {
+          pot -=1;
+        }
 
       }
       if (pot == goal) {
