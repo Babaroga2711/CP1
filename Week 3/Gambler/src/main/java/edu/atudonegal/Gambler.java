@@ -54,6 +54,8 @@ public class Gambler {
           System.out.println("No luck! You lost $1");
           bets++;
         }
+        
+        //new comment
 
       }
       if (pot == goal) {
