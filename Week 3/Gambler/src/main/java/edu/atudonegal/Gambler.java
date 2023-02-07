@@ -43,11 +43,16 @@ public class Gambler {
         if(diceThrow < 6)
         {
           pot +=1;
+          System.out.println("Congratulations! You won $1");
+          winningThrows++;
+          bets++;
         }
-        
+
         if(diceThrow >= 6)
         {
           pot -=1;
+          System.out.println("No luck! You lost $1");
+          bets++;
         }
 
       }
