@@ -1,0 +1,3 @@
+# This is a test repository to learn how to push stuff onto github 
+
+I should have done this ages ago...
